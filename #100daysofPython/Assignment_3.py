@@ -6,6 +6,8 @@ def tests(test1, test2):
     else:
         # Otherwise, it returns the higher mark.
         return test2
+
+#Running the tests   
 test1 = int(input('Please enter Marks for test one: '))
 test2 = int(input('Please enter Marks for test two: '))
 
@@ -24,7 +26,9 @@ def courseWrk(cswork):
     print('..............................')
     # Prints the final coursework marks with some more formatting.
 
+#prompting the user to enter course work marks
 cswork = int(input('Please enter your course work Marks: '))
+#calling the function
 courseWrk(cswork)
 
 
